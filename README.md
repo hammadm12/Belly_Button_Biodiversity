@@ -12,11 +12,11 @@ One new addition we created was bar chart that dynamically changes based on the 
 
 For the second deliverable, We also created a bubble chart as well which plots the various bacteria species which also dynamically changes based on selection of volunteers.
 
-![]
+![](images/
 
 For the third deliverable, a gauge chart was created that shows a volunteers belly washing frequency per week.
 
-![]
+![](images/
 
 
 
