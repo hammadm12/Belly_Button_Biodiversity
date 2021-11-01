@@ -8,7 +8,7 @@ As we helped Roza to visualize the data in html format, Roza then proposed to th
 
 One new addition we created was bar chart that dynamically changes based on the users input from the selection of the volunteers in the drop down list.
 
-![]
+![](images/toptenbacteriacultures.PNG)
 
 For the second deliverable, We also created a bubble chart as well which plots the various bacteria species which also dynamically changes based on selection of volunteers.
 
