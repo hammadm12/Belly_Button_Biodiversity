@@ -4,7 +4,6 @@ body {
   }
 
   .jumbotron {
-    /* background-image: url('https://www.infectiousdiseaseadvisor.com/wp-content/uploads/sites/16/2019/01/bacteriaculture_1209526.jpg'); */
     background-image: url('../images/bio-diversity4.jpeg');
     background-size: 100% 100%;
     text-align: center;
