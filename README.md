@@ -16,7 +16,7 @@ For the second deliverable, We also created a bubble chart as well which plots t
 
 For the third deliverable, a gauge chart was created that shows a volunteers belly washing frequency per week.
 
-![](images/
+![](images/belly_button_washing_frequency.PNG)
 
 
 
