@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-image: url('https://cdn.vox-cdn.com/thumbor/U02qEUKV0pimMY1NFXFrCEat7z8=/0x0:1800x1013/1400x1050/filters:focal(774x274:1062x562):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/69681997/biodiversity_board_3.0.jpg');background-repeat: no-repeat; background-size: 98% 98%;"> <!--C2F1E7 449654-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1><b>Belly Button Biodiversity Dashboard</b></h1>
+        <p><font size= 32px style="font-family:Brush Script MT" color=#D26900><b>Use the interactive charts below to explore the dataset</b></font></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h4><b><font color="darkblue">Test Subject ID No.:</font></b></h4>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-md-9">
+        <div id="bubble"></div>
+      </div>
+    </div>
+      <br></br>
+
+    <div class="row">
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+      <div class="col-md-7">
+        <div id="bar"></div>
+      </div>
+    </div>
+      <br></br>
+      <br></br>
+    
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="js/charts.js"></script>
+
+</body>
+
+</html>
