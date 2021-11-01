@@ -1,1 +1,11 @@
+body {
+    color:rgb(17, 61, 2);
+    /* -webkit-text-stroke: 1px rgb(7, 0, 0); */
+  }
 
+  .jumbotron {
+    /* background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.infectiousdiseaseadvisor.com%2Fhome%2Ftopics%2Fsepsis%2Faccuracy-of-rapid-maldi-tof-bacterial-identification-for-bloodstream-infections%2F&psig=AOvVaw3R6cGVN6pRYrxEOoz51C1h&ust=1635814106075000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLDuysn49fMCFQAAAAAdAAAAABAD'); */
+    background-image: url('../images/bio-diversity4.jpeg');
+    background-size: 100% 100%;
+    text-align: center;
+  }
